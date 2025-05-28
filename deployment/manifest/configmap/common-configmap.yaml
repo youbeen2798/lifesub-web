@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: common-config
+  namespace: dg0418-lifesub-ns
+data:
+  JPA_DDL_AUTO: "update"
+  JPA_SHOW_SQL: "true"
+  ALLOWED_ORIGINS: "http://20.249.131.199"
